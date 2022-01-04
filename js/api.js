@@ -1,0 +1,77 @@
+export default [
+  {
+    id: "0",
+    name: "Car",
+    image: "../assets/car.webp",
+    price: 12,
+    isAuto: false,
+    fuel: [
+      { name: "Electric", value: 0.05 },
+      { name: "Diesel", value: 0.21 },
+      { name: "Gasoline", value: 0.14 },
+      { name: "Hybrid", value: 0.09 },
+    ],
+  },
+  {
+    id: "1",
+    name: "Moto",
+    image: "../assets/moto.webp",
+    price: 10,
+    isAuto: false,
+    fuel: [
+      { name: "Electric", value: 0.05 },
+      { name: "Gasoline", value: 0.14 },
+    ],
+  },
+  {
+    id: "2",
+    name: "Compact",
+    image: "../assets/compact.webp",
+    price: 14,
+    isAuto: false,
+    fuel: [
+      { name: "Diesel", value: 0.21 },
+      { name: "Gasoline", value: 0.14 },
+      { name: "Hybrid", value: 0.09 },
+    ],
+  },
+  {
+    id: "3",
+    name: "Berlin",
+    image: "../assets/berlin.webp",
+    price: 20,
+    isAuto: true,
+    fuel: [
+      { name: "Diesel", value: 0.21 },
+      { name: "Gasoline", value: 0.14 },
+      { name: "Hybrid", value: 0.09 },
+    ],
+  },
+  {
+    id: "4",
+    name: "Transit",
+    image: "../assets/transit.webp",
+    price: 16,
+    isAuto: false,
+    fuel: [{ name: "Diesel", value: 0.21 }],
+  },
+  {
+    id: "5",
+    name: "Constructor",
+    image: "../assets/constructor.webp",
+    price: 900,
+    isAuto: false,
+    fuel: [
+      { name: "Diesel", value: 0.21 },
+      { name: "Gasoline", value: 0.14 },
+    ],
+  },
+  {
+    id: "6",
+    name: "Truck",
+    image: "../assets/truck.webp",
+    price: 250,
+    isAuto: false,
+    fuel: [{ name: "Diesel", value: 0.21 }],
+  },
+];
